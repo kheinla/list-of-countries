@@ -16,7 +16,7 @@ body {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     @apply bg-application-linear;
     padding-top: 5rem;
-    width: 100rem;
+    width: 80rem;
     margin: 0 auto;
     min-height: 100vh;
 }

@@ -33,7 +33,7 @@ export const CountriesTable = ({ countriesData }: CountriesTablePropsTypes) => {
                 <h1 className="text-white text-3xl p-4">List of Countries</h1>
                 <Filter filter={filter} onSetFilter={setFilter} />
             </div>
-            <div className="max-h-[60rem] overflow-auto">
+            <div className="max-h-[45rem] overflow-auto">
                 <table className="w-full text-sm text-left rtl:text-right">
                     <thead className="text-md bg-blue-200 bg-opacity-30 text-white uppercase">
                         <tr>

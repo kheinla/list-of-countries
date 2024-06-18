@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .glass {
+        @apply backdrop-blur-md bg-white bg-opacity-30;
+    }
+
+    .glass-tile {
+        @apply glass rounded-3xl shadow-lg;
+    }
+}
+
+body {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    @apply bg-application-linear;
+    padding-top: 5rem;
+    width: 100rem;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+    height: 0.5rem;
+    width: 0.7rem;
+}
+::-webkit-scrollbar-track {
+    background: rgba(241, 241, 241, 0.2);
+}
+::-webkit-scrollbar-thumb {
+    background: #bfdbfe;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #93c5fd;
+}
